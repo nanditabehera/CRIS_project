@@ -4,7 +4,6 @@ Spring boot and PostgreSQL Project
 A complete user registration and login system built with Spring Boot, PostgreSQL, and Maven.  
 This project demonstrates secure password handling, custom login/signup pages, and integration with a real database.
 
----
 
 ### Features
 - User registration with password encryption (BCrypt)  
@@ -15,7 +14,6 @@ This project demonstrates secure password handling, custom login/signup pages, a
 - Static assets (CSS, JS, images) served from `/static/`  
 - MVC routing for login, signup, and home pages  
 
----
 
 ### Tech Stack
 - Java 17+  
@@ -26,7 +24,6 @@ This project demonstrates secure password handling, custom login/signup pages, a
 - Maven  
 - Thymeleaf (for templates)  
 
----
 
 ### Folder Structure
 src/  
@@ -45,7 +42,6 @@ src/
     └── java/com/example/demo/  
         └── DemoApplicationTests.java  
 
----
 
 ### Setup Instructions
 
@@ -98,9 +94,7 @@ To view registered users in PostgreSQL:
 SELECT * FROM my_app_user;
 ```
 
----
-
-### 📄 License
+### License
 
 This project is open-source and free to use for educational or personal learning purposes.
 
