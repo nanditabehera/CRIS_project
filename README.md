@@ -84,8 +84,6 @@ mvn spring-boot:run
 - Home page after login: `http://localhost:8080/index`  
 - 404 error example: visit any non-existing URL like `http://localhost:8080/xyz`  
 
----
-
 ### Sample SQL
 
 To view registered users in PostgreSQL:
