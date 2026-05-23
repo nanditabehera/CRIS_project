@@ -6,7 +6,7 @@ This project demonstrates secure password handling, custom login/signup pages, a
 
 ---
 
-### 🚀 Features
+### Features
 - User registration with password encryption (BCrypt)  
 - Custom login and signup pages  
 - Spring Security configuration with form-based login  
@@ -17,7 +17,7 @@ This project demonstrates secure password handling, custom login/signup pages, a
 
 ---
 
-### 🛠 Tech Stack
+### Tech Stack
 - Java 17+  
 - Spring Boot 3+  
 - Spring Security  
@@ -28,7 +28,7 @@ This project demonstrates secure password handling, custom login/signup pages, a
 
 ---
 
-### 📦 Folder Structure
+### Folder Structure
 src/  
 ├── main/  
 │   ├── java/com/example/demo/  
@@ -47,7 +47,7 @@ src/
 
 ---
 
-### ⚙️ Setup Instructions
+### Setup Instructions
 
 #### 1. Configure PostgreSQL
 Create a database named `registration`, then update `src/main/resources/application.yml`:
@@ -90,7 +90,7 @@ mvn spring-boot:run
 
 ---
 
-### ✅ Sample SQL
+### Sample SQL
 
 To view registered users in PostgreSQL:
 
